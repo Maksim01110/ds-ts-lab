@@ -1,5 +1,5 @@
 import { friends, colleagues } from "./01-basics";
-import { Friend, Colleague, SecureFriendContact, FriendPartial } from "./myTypes";
+import { Friend, Colleague, SecureFriendContact, FriendPartial, EventPass } from "./myTypes";
 
 function updateFriend(friend: Friend, updates: FriendPartial ) : Friend {
   return { ...friend, ...updates}
